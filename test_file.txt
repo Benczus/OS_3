@@ -1,0 +1,277 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.1 225912  9664 ?        Ss   11:51   0:03 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    11:51   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:51   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:51   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/0:0H-kb]
+root         7  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/0:1-cgr]
+root         9  0.0  0.0      0     0 ?        I<   11:51   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    11:51   0:00 [ksoftirqd/0]
+root        11  0.1  0.0      0     0 ?        I    11:51   0:06 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    11:51   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    11:51   0:00 [idle_inject/0]
+root        14  0.0  0.0      0     0 ?        S    11:51   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    11:51   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    11:51   0:00 [idle_inject/1]
+root        17  0.0  0.0      0     0 ?        S    11:51   0:00 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    11:51   0:00 [ksoftirqd/1]
+root        20  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/1:0H-kb]
+root        21  0.0  0.0      0     0 ?        S    11:51   0:00 [cpuhp/2]
+root        22  0.0  0.0      0     0 ?        S    11:51   0:00 [idle_inject/2]
+root        23  0.0  0.0      0     0 ?        S    11:51   0:00 [migration/2]
+root        24  0.0  0.0      0     0 ?        S    11:51   0:00 [ksoftirqd/2]
+root        26  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/2:0H-kb]
+root        27  0.0  0.0      0     0 ?        S    11:51   0:00 [cpuhp/3]
+root        28  0.0  0.0      0     0 ?        S    11:51   0:00 [idle_inject/3]
+root        29  0.0  0.0      0     0 ?        S    11:51   0:00 [migration/3]
+root        30  0.0  0.0      0     0 ?        S    11:51   0:00 [ksoftirqd/3]
+root        32  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/3:0H-kb]
+root        33  0.0  0.0      0     0 ?        S    11:51   0:00 [kdevtmpfs]
+root        34  0.0  0.0      0     0 ?        I<   11:51   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    11:51   0:00 [rcu_tasks_kthre]
+root        36  0.0  0.0      0     0 ?        S    11:51   0:00 [kauditd]
+root        37  0.0  0.0      0     0 ?        S    11:51   0:00 [khungtaskd]
+root        38  0.0  0.0      0     0 ?        S    11:51   0:00 [oom_reaper]
+root        39  0.0  0.0      0     0 ?        I<   11:51   0:00 [writeback]
+root        40  0.0  0.0      0     0 ?        S    11:51   0:00 [kcompactd0]
+root        41  0.0  0.0      0     0 ?        SN   11:51   0:00 [ksmd]
+root        42  0.0  0.0      0     0 ?        SN   11:51   0:00 [khugepaged]
+root        50  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/2:1-eve]
+root       135  0.0  0.0      0     0 ?        I<   11:51   0:00 [kintegrityd]
+root       136  0.0  0.0      0     0 ?        I<   11:51   0:00 [kblockd]
+root       137  0.0  0.0      0     0 ?        I<   11:51   0:00 [blkcg_punt_bio]
+root       140  0.0  0.0      0     0 ?        I<   11:51   0:00 [tpm_dev_wq]
+root       141  0.0  0.0      0     0 ?        I<   11:51   0:00 [ata_sff]
+root       142  0.0  0.0      0     0 ?        I<   11:51   0:00 [md]
+root       143  0.0  0.0      0     0 ?        I<   11:51   0:00 [edac-poller]
+root       144  0.0  0.0      0     0 ?        I<   11:51   0:00 [devfreq_wq]
+root       145  0.0  0.0      0     0 ?        S    11:51   0:00 [watchdogd]
+root       148  0.0  0.0      0     0 ?        S    11:51   0:00 [kswapd0]
+root       149  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/u17:0]
+root       150  0.0  0.0      0     0 ?        S    11:51   0:00 [ecryptfs-kthrea]
+root       153  0.0  0.0      0     0 ?        I<   11:51   0:00 [kthrotld]
+root       154  0.0  0.0      0     0 ?        I<   11:51   0:00 [acpi_thermal_pm]
+root       155  0.0  0.0      0     0 ?        S    11:51   0:00 [scsi_eh_0]
+root       156  0.0  0.0      0     0 ?        I<   11:51   0:00 [scsi_tmf_0]
+root       157  0.0  0.0      0     0 ?        S    11:51   0:00 [scsi_eh_1]
+root       158  0.0  0.0      0     0 ?        I<   11:51   0:00 [scsi_tmf_1]
+root       159  0.1  0.0      0     0 ?        I    11:51   0:05 [kworker/u16:2-i]
+root       160  0.0  0.0      0     0 ?        S    11:51   0:00 [scsi_eh_2]
+root       161  0.0  0.0      0     0 ?        I<   11:51   0:00 [scsi_tmf_2]
+root       162  0.0  0.0      0     0 ?        S    11:51   0:00 [scsi_eh_3]
+root       163  0.0  0.0      0     0 ?        I<   11:51   0:00 [scsi_tmf_3]
+root       164  0.1  0.0      0     0 ?        I    11:51   0:04 [kworker/u16:3-p]
+root       166  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/0:2-mm_]
+root       172  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/3:3-eve]
+root       173  0.0  0.0      0     0 ?        I<   11:51   0:00 [ipv6_addrconf]
+root       184  0.0  0.0      0     0 ?        I<   11:51   0:00 [kstrp]
+root       203  0.0  0.0      0     0 ?        I<   11:51   0:00 [charger_manager]
+root       204  0.1  0.0      0     0 ?        I    11:51   0:03 [kworker/1:2-eve]
+root       205  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/1:1H-ev]
+root       206  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/0:1H-ev]
+root       256  0.0  0.0      0     0 ?        I<   11:51   0:00 [sdhci]
+root       257  0.0  0.0      0     0 ?        S    11:51   0:00 [irq/18-mmc0]
+root       260  0.0  0.0      0     0 ?        I<   11:51   0:00 [kworker/2:1H-ev]
+root       269  0.0  0.0      0     0 ?        I<   11:51   0:00 [kdmflush]
+root       278  0.0  0.0      0     0 ?        I<   11:51   0:00 [kdmflush]
+root       315  0.0  0.0      0     0 ?        S    11:51   0:00 [jbd2/dm-0-8]
+root       316  0.0  0.0      0     0 ?        I<   11:51   0:00 [ext4-rsv-conver]
+root       358  0.0  0.1  95276 15804 ?        S<s  11:51   0:00 /lib/systemd/systemd-journald
+root       378  0.0  0.0 105900  1920 ?        Ss   11:51   0:00 /sbin/lvmetad -f
+root       383  0.0  0.0  48440  6644 ?        Ss   11:51   0:02 /lib/systemd/systemd-udevd
+root       388  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop0]
+root       389  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop1]
+root       391  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop2]
+root       393  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop3]
+root       395  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop4]
+root       397  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop5]
+root       399  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop6]
+root       401  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop7]
+root       403  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop8]
+root       405  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop9]
+root       407  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop10]
+root       409  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop11]
+root       411  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop12]
+root       413  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop13]
+root       415  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop14]
+root       418  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop15]
+root       419  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop16]
+root       422  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop17]
+root       423  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop18]
+root       425  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop19]
+root       427  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop20]
+root       429  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop21]
+root       431  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop22]
+root       433  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop23]
+root       435  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop24]
+root       437  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop25]
+root       439  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop26]
+root       442  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop27]
+root       444  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop28]
+root       446  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop29]
+root       447  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop30]
+root       449  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop31]
+root       451  0.0  0.0      0     0 ?        S<   11:51   0:00 [loop32]
+root       503  0.0  0.0      0     0 ?        S    11:51   0:00 [irq/31-mei_me]
+root       515  0.0  0.0      0     0 ?        I<   11:51   0:00 [kmemstick]
+root       547  0.0  0.0      0     0 ?        I<   11:51   0:00 [cfg80211]
+root       561  0.0  0.0      0     0 ?        I<   11:51   0:00 [ttm_swap]
+root       572  0.0  0.0      0     0 ?        I<   11:51   0:00 [cryptd]
+root       615  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/1:3-eve]
+systemd+   885  0.0  0.0  70756  5136 ?        Ss   11:52   0:00 /lib/systemd/systemd-resolved
+systemd+   886  0.0  0.0 146112  3412 ?        Ssl  11:52   0:00 /lib/systemd/systemd-timesyncd
+root       960  0.0  0.1 188556  9644 ?        Rsl  11:52   0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+avahi      962  0.0  0.0  47264  3220 ?        Ss   11:52   0:00 avahi-daemon: running [bogdandy-HP-ProBook-4540s.local]
+message+   963  0.0  0.0  51716  6200 ?        Ss   11:52   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+avahi      981  0.0  0.0  47076   336 ?        S    11:52   0:00 avahi-daemon: chroot helper
+syslog     995  0.0  0.0 263036  4472 ?        Ssl  11:52   0:00 /usr/sbin/rsyslogd -n
+root       997  0.0  0.1 504164 12420 ?        Ssl  11:52   0:00 /usr/lib/udisks2/udisksd
+root      1000  0.0  0.1 360596  9364 ?        Ssl  11:52   0:00 /usr/sbin/ModemManager --filter-policy=strict
+daemon    1001  0.0  0.0  28328  2352 ?        Ss   11:52   0:00 /usr/sbin/atd -f
+root      1004  0.6  0.0 269692  5916 ?        Dsl  11:52   0:19 /usr/sbin/iio-sensor-proxy
+root      1006  0.0  0.1 109248  8192 ?        Ss   11:52   0:00 /usr/sbin/cupsd -l
+root      1011  0.0  0.2 179180 17700 ?        Ssl  11:52   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1012  0.0  0.0 296308  7304 ?        Ssl  11:52   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1017  0.1  0.3 1527452 25540 ?       Ssl  11:52   0:03 /usr/lib/snapd/snapd
+root      1018  0.0  0.0  45480  7728 ?        Ss   11:52   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1019  0.0  0.0 110480  3428 ?        Ssl  11:52   0:00 /usr/sbin/irqbalance --foreground
+root      1020  0.0  0.2 568344 18196 ?        Ssl  11:52   0:01 /usr/sbin/NetworkManager --no-daemon
+root      1033  0.0  0.0  39980  3464 ?        Ss   11:52   0:00 /usr/sbin/cron -f
+root      1041  0.0  0.0   4548   784 ?        Ss   11:52   0:00 /usr/sbin/acpid
+root      1042  0.0  0.0  70732  6256 ?        Ss   11:52   0:00 /lib/systemd/systemd-logind
+root      1049  0.0  0.1 303652 11160 ?        Ssl  11:52   0:00 /usr/sbin/cups-browsed
+root      1102  0.0  0.1 304992  9952 ?        Ssl  11:52   0:00 /usr/lib/policykit-1/polkitd --no-debug
+lp        1117  0.0  0.0  86416  5984 ?        S    11:52   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      1124  0.3  0.9 964036 80156 ?        Ssl  11:52   0:09 dockerd -G docker --exec-root=/var/snap/docker/423/run/docker --data-root=/var/snap/docker/common/var-lib-docker --pidfile=/var/snap/docker/423/run/docker.pid --config-file=/var/snap/docker/423/config/daemon.json
+root      1127  0.0  0.2 195936 20396 ?        Ssl  11:52   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1147  0.0  0.1 309744  8112 ?        Ssl  11:52   0:00 /usr/sbin/gdm3
+root      1165  0.0  0.1 263116  8548 ?        Sl   11:52   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm       1235  0.0  0.1  77168  8408 ?        Ss   11:52   0:00 /lib/systemd/systemd --user
+gdm       1237  0.0  0.0 261856  3012 ?        S    11:52   0:00 (sd-pam)
+mysql     1261  0.0  2.2 1358644 177788 ?      Sl   11:52   0:02 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+whoopsie  1276  0.0  0.1 464312 12776 ?        Ssl  11:52   0:00 /usr/bin/whoopsie -f
+kernoops  1281  0.0  0.0  56940   416 ?        Ss   11:52   0:00 /usr/sbin/kerneloops --test
+kernoops  1283  0.0  0.0  56940   420 ?        Ss   11:52   0:00 /usr/sbin/kerneloops
+root      1300  0.0  0.0      0     0 ?        I<   11:52   0:00 [iprt-VBoxWQueue]
+root      1304  0.0  0.0      0     0 ?        S    11:52   0:00 [iprt-VBoxTscThr]
+gdm       1333  0.0  0.0 199352  5752 tty1     Ssl+ 11:52   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       1341  0.0  0.0  50336  4584 ?        Ss   11:52   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm       1364  0.0  0.1 560528 13816 tty1     Sl+  11:52   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+root      1392  0.1  0.5 669288 41928 ?        Ssl  11:52   0:06 containerd --config /var/snap/docker/423/run/docker/containerd/containerd.toml --log-level error
+gdm       1395  0.1  2.2 3700648 181260 tty1   Sl+  11:52   0:05 /usr/bin/gnome-shell
+root      1420  0.0  0.1 323980  8984 ?        Ssl  11:52   0:00 /usr/lib/upower/upowerd
+root      1451  0.0  0.0      0     0 ?        I    11:52   0:00 [kworker/3:5-eve]
+root      1476  0.0  0.0  25988  6136 ?        S    11:52   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlo1.pid -lf /var/lib/NetworkManager/dhclient-f76de06a-db26-4613-bf02-56e6c8a8ab6b-wlo1.lease -cf /var/lib/NetworkManager/dhclient-wlo1.conf wlo1
+root      1483  0.0  0.0   4504   796 ?        S    11:52   0:00 bpfilter_umh
+gdm       1716  0.0  0.6 628068 49228 tty1     Sl+  11:53   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1779  0.0  0.0 349268  6188 ?        Ssl  11:53   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+gdm       1784  0.0  0.0  49928  3828 ?        S    11:53   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       1786  0.0  0.0 220764  7124 ?        Sl   11:53   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+gdm       1791  0.0  0.1 1155036 11916 ?       Ssl  11:53   0:00 /usr/bin/pulseaudio --daemonize=no
+rtkit     1792  0.0  0.0 183504  2932 ?        SNsl 11:53   0:00 /usr/lib/rtkit/rtkit-daemon
+gdm       1806  0.0  0.0 362924  8020 tty1     Sl   11:53   0:00 ibus-daemon --xim --panel disable
+gdm       1809  0.0  0.0 282300  6220 tty1     Sl   11:53   0:00 /usr/lib/ibus/ibus-dconf
+gdm       1812  0.0  0.3 490776 29364 tty1     Sl   11:53   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1817  0.0  0.0 280112  6268 ?        Sl   11:53   0:00 /usr/lib/ibus/ibus-portal
+gdm       1822  0.0  0.0 273116  5264 ?        Ssl  11:53   0:00 /usr/libexec/xdg-permission-store
+root      1826  0.0  0.0 298428  7128 ?        Ssl  11:53   0:00 /usr/lib/x86_64-linux-gnu/boltd
+gdm       1828  0.0  0.3 641724 30836 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+root      1829  0.1  0.4 449392 38836 ?        Ssl  11:53   0:03 /usr/lib/packagekit/packagekitd
+gdm       1835  0.0  0.0 279716  6068 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1839  0.0  0.3 490392 28960 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1842  0.0  0.3 814980 31420 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1843  0.0  0.1 395272 13632 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1847  0.0  0.0 285296  5796 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1848  0.0  0.3 644828 29956 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1854  0.0  0.3 1078716 31756 tty1    Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1855  0.0  0.0 203552  4844 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1856  0.0  0.3 655616 30928 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1859  0.0  0.1 268572  9024 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1860  0.0  0.0 203572  4724 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1863  0.0  0.0 277288  5096 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1866  0.0  0.1 306672  8388 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1870  0.0  0.1 379496  9420 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1874  0.0  0.1 334420  8268 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1877  0.0  0.3 575492 29820 tty1     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1887  0.0  0.0 206444  6852 tty1     Sl   11:53   0:00 /usr/lib/ibus/ibus-engine-simple
+colord    1931  0.0  0.1 326584 14188 ?        Ssl  11:53   0:00 /usr/lib/colord/colord
+root      1953  0.0  0.1 269308  8820 ?        Sl   11:53   0:00 gdm-session-worker [pam/gdm-password]
+bogdandy  1956  0.0  0.1  77292  8280 ?        Ss   11:53   0:00 /lib/systemd/systemd --user
+bogdandy  1957  0.0  0.0 261988  3016 ?        S    11:53   0:00 (sd-pam)
+bogdandy  1970  0.0  0.0 289920  7772 ?        Sl   11:53   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+bogdandy  1974  0.0  0.0 213688  6336 tty2     Ssl+ 11:53   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+bogdandy  1976 13.5  1.2 733136 103416 tty2    Sl+  11:53   6:51 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+bogdandy  1987  0.0  0.0  51040  5440 ?        Ss   11:53   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bogdandy  1990  0.0  0.1 716876 14992 tty2     Sl+  11:53   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+bogdandy  2086  0.0  0.0  11300   316 ?        Ss   11:53   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+bogdandy  2089  0.0  0.0 349296  6256 ?        Ssl  11:53   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+bogdandy  2094  0.0  0.0  50056  4264 ?        S    11:53   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+bogdandy  2097  0.0  0.0 220776  6808 ?        Sl   11:53   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+bogdandy  2114  7.8  2.7 3873464 223512 tty2   Sl+  11:53   3:57 /usr/bin/gnome-shell
+bogdandy  2121  0.0  0.0 293528  7272 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfsd
+bogdandy  2126  0.0  0.0 416112  5340 ?        Sl   11:53   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+bogdandy  2137 13.0  0.1 1698348 14212 ?       S<l  11:53   6:35 /usr/bin/pulseaudio --start --log-target=syslog
+bogdandy  2149  0.1  0.1 436768  8296 tty2     Sl   11:53   0:05 ibus-daemon --xim --panel disable
+bogdandy  2152  0.0  0.0 273116  5076 ?        Ssl  11:53   0:00 /usr/libexec/xdg-permission-store
+bogdandy  2157  0.0  0.0 282308  6856 tty2     Sl   11:53   0:00 /usr/lib/ibus/ibus-dconf
+bogdandy  2160  0.0  0.2 345496 21140 tty2     Sl   11:53   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+bogdandy  2162  0.0  0.0 280244  6252 ?        Sl   11:53   0:00 /usr/lib/ibus/ibus-portal
+bogdandy  2173  0.0  0.2 690036 21024 ?        Sl   11:53   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+bogdandy  2182  0.0  0.0 188032  5252 ?        Sl   11:53   0:00 /usr/lib/dconf/dconf-service
+bogdandy  2185  0.0  0.1 308128  9488 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+bogdandy  2191  0.0  0.3 693768 25404 ?        Ssl  11:53   0:00 /usr/lib/evolution/evolution-source-registry
+bogdandy  2193  0.0  0.0 275600  6156 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+bogdandy  2197  0.0  0.4 785272 32696 ?        Sl   11:53   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+bogdandy  2210  0.0  0.0 304916  7856 ?        Sl   11:53   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+bogdandy  2212  0.0  0.0 290344  7132 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+bogdandy  2219  0.0  0.0 277428  6140 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+bogdandy  2223  0.0  0.0 380376  7760 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+bogdandy  2228  0.0  0.2 518732 22672 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+bogdandy  2229  0.0  0.1 350892 10420 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+bogdandy  2232  0.0  0.0 424900  6056 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+bogdandy  2236  0.0  0.0 277288  6040 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+bogdandy  2238  0.0  0.1 454536 10500 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+bogdandy  2240  0.0  0.1 334428  8172 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+bogdandy  2249  0.0  0.2 496436 22352 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+bogdandy  2253  0.0  0.1 379496  8192 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+bogdandy  2257  0.0  0.2 429960 21060 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+bogdandy  2266  0.0  0.0 279720  6096 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+bogdandy  2267  0.0  0.2 345104 20240 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+bogdandy  2268  0.0  0.2 669684 23052 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+bogdandy  2270  0.0  0.1 471304 13844 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+bogdandy  2272  0.0  0.0 366108  7520 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+bogdandy  2273  0.0  0.2 507968 21452 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+bogdandy  2276  0.0  0.2 868040 23520 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+bogdandy  2277  0.0  0.0 279724  6092 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+bogdandy  2315  0.0  0.1 510328 12596 tty2     Sl+  11:53   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+bogdandy  2342  0.0  0.5 975740 47472 tty2     Sl+  11:53   0:01 nautilus-desktop
+bogdandy  2345  0.0  0.0 271932  6584 tty2     Sl+  11:53   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+bogdandy  2350  0.0  0.8 893680 67348 ?        Ssl  11:53   0:00 /usr/lib/evolution/evolution-calendar-factory
+bogdandy  2352  0.0  0.0 206444  6668 tty2     Sl   11:53   0:02 /usr/lib/ibus/ibus-engine-simple
+bogdandy  2369  0.0  0.0 369812  7464 ?        Sl   11:53   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+bogdandy  2391  0.0  0.7 1137568 62644 ?       Sl   11:53   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2350x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2350/2
+bogdandy  2404  0.0  0.3 734252 24300 ?        Ssl  11:53   0:00 /usr/lib/evolution/evolution-addressbook-factory
+bogdandy  2413  0.0  0.3 1018772 26612 ?       Sl   11:53   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2404x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2404/2
+bogdandy  2430  0.0  0.0 206812  7072 ?        Ssl  11:53   0:00 /usr/lib/gvfs/gvfsd-metadata
+bogdandy  2440  0.5  0.4 730436 39856 ?        Ssl  11:53   0:15 /usr/lib/gnome-terminal/gnome-terminal-server
+bogdandy  2448  0.0  0.0  32180  6480 pts/0    Ss   11:53   0:01 bash
+bogdandy  2464  0.1  1.9 1247540 156840 ?      SLl  11:53   0:04 /usr/bin/gnome-software --gapplication-service
+bogdandy  2483  0.5  1.6 892320 129416 tty2    Sl+  11:53   0:15 /usr/share/discord/Discord
+bogdandy  2546  0.0  0.4 378984 39708 tty2     S+   11:53   0:00 /usr/share/discord/Discord --type=zygote
+bogdandy  2548  0.0  0.1 378984  8692 tty2     S+   11:53   0:00 /usr/share/discord/Discord --type=zygote
+root      2567  0.0  0.3 561800 25776 ?        Ssl  11:53   0:00 /usr/lib/fwupd/fwupd
+bogdandy  2753  0.5  1.4 560884 115252 tty2    Sl+  11:54   0:15 /usr/share/discord/Discord --type=gpu-process --field-trial-handle=14154551841495171067,15958689885568575947,131072 --disable-features=SpareRendererForSitePerProcess --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=12937439318933454976
+bogdandy  2782  0.0  0.7 466172 58520 tty2     Sl+  11:54   0:01 /usr/share/discord/Discord --type=utility --field-trial-handle=14154551841495171067,15958689885568575947,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --service-request-channel-token=8709424998751195875 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+bogdandy  2808  0.0  0.3 648212 32056 tty2     Sl+  11:54   0:00 update-notifier
+bogdandy  2939 85.5  4.3 1557308 347012 tty2   Rl+  11:54  42:05 /usr/share/discord/Discord --type=renderer --autoplay-policy=no-user-gesture-required --field-trial-handle=14154551841495171067,15958689885568575947,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-US --app-path=/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --native-window-open --preload=/home/bogdandy/.config/discord/0.0.10/modules/discord_desktop_core/core.asar/app/mainScreenPreload.js --background-color=#202225 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10808778759951024150 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+bogdandy  3282  0.0  0.4 798616 33752 tty2     Sl+  11:55   0:00 /usr/lib/deja-dup/deja-dup-monitor
+root      3373  0.0  0.0      0     0 ?        I    12:01   0:00 [kworker/2:0-cgr]
+bogdandy  3443 42.5  2.7 2455060 223052 tty2   Sl+  12:01  17:58 obs
+bogdandy  3526  0.0  0.0   4624   768 tty2     S+   12:02   0:00 sh -c "/usr/bin/obs-ffmpeg-mux" "/home/bogdandy/2020-03-31 12-02-03.mkv" 1 1 h264 2500 908 512 30 1 aac "simple_aac_recording" 192 44100 2 "" 
+bogdandy  3529  0.1  0.3 329116 25428 tty2     S+   12:02   0:03 /usr/bin/obs-ffmpeg-mux /home/bogdandy/2020-03-31 12-02-03.mkv 1 1 h264 2500 908 512 30 1 aac simple_aac_recording 192 44100 2
+root      3665  0.0  0.0      0     0 ?        I<   12:05   0:00 [kworker/3:2H-ev]
+root      4583  0.1  0.0      0     0 ?        I    12:19   0:01 [kworker/u16:1-i]
+root      5692  0.0  0.0      0     0 ?        I    12:36   0:00 [kworker/u16:4-p]
+root      5801  0.0  0.0      0     0 ?        I    12:39   0:00 [kworker/2:2]
+root      5918  0.0  0.0      0     0 ?        I    12:42   0:00 [kworker/u16:0-e]
+bogdandy  6002  0.0  0.0  48328  3936 pts/0    R+   12:44   0:00 ps aux
